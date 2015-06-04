@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+i = 0
+numbers = []
+
+while i < 6:
+    print "At the top i is %d" % i
+    numbers.append(i)
+
+    i = i + 1
+    print "Number now:", numbers
+    print "At bottom i is %d" % i
+
+print "The numbers: "
+
+for number in numbers:
+    print number
